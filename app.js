@@ -4,13 +4,13 @@ var winner;
 
 function gameManager(){
   compChoice()    
-  debugger
+  
   compareChoices()
   displayWinner()
 }
 
 function userSelection(choice) {
-  debugger
+  
   userChoice = choice
   gameManager()
 }
@@ -26,7 +26,7 @@ function compChoice(){
     computerChoice = "paper"
     
   }
-debugger
+
 }
 
 
@@ -58,7 +58,7 @@ console.log("winner")
 }
 
 function displayWinner(){
-  debugger
+  
   document.getElementById('test').innerText = winner
 }
 
